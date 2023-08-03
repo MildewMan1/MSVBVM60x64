@@ -1,0 +1,3 @@
+LIBRARY "MSVBVM60x64"
+EXPORTS
+vbaObjSetByAddress
