@@ -50,5 +50,5 @@ Here is an example of how to use it.
 
           Set oOrg = Nothing
           Set oRetval = Nothing
-    End Function
+    End Sub
 
