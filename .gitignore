@@ -12,6 +12,8 @@
 *.sln
 *.gitignore
 *.gitattributes
+*MSVBVM60_64.vcxproj*
+*_debug.cpp
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
