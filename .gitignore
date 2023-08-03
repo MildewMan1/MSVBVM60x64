@@ -9,13 +9,11 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.sln
-*.gitignore
-*.gitattributes
+MSVBVM60x64.sln
 MSVBVM60_64.vcxproj
 MSVBVM60_64.vcxproj.filters
 MSVBVM60_64.vcxproj.user
-*_debug.cpp
+msvbvm60_debug.cpp.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
