@@ -17,7 +17,7 @@ VBA_FUNC(IUnknown*) vbaObjSetByAddress(IUnknown* pUnknown)
 	
 	*/
 
-	//check to make sure pUnknown isn't a nullptr before calling AddRef.
+	// check to make sure pUnknown isn't a nullptr before calling AddRef.
 	if (pUnknown != nullptr)	
 		pUnknown->AddRef();
 
