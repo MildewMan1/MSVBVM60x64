@@ -15,6 +15,7 @@ MSVBVM60_64.vcxproj.filters
 MSVBVM60_64.vcxproj.user
 msvbvm60_debug.cpp.txt
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -366,3 +367,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/MSVBVM60_64.sln
+/MSVBVM60_64/MSVBVM60_64.vcxproj
+/MSVBVM60_64/MSVBVM60_64.vcxproj.filters
+/.gitignore
+/.gitattributes
+/.gitignore
