@@ -15,7 +15,7 @@ Once compiled, declare the function in VBA like so:
     #If VBA7 Then
         Private Declare PtrSafe Function vbaObjSetByAddress Lib "((Path to the dll here))\MSVBVM60x64.dll" (ByVal objectAddress As LongPtr) As Object
     #Else
-        Private Declare Function vbaObjSetByAddress Lib "((Path to the dll here))\MSVBVM60x64.dll" (ByVal objectAddress As LongPtr) As Object
+        Private Declare Function vbaObjSetByAddress Lib "((Path to the dll here))\MSVBVM60x64.dll" (ByVal objectAddress As Long) As Object
     #End If
 
 Note that it is declared Private. I would recommend that you create a Public function within this module to call it, so you can
