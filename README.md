@@ -8,7 +8,8 @@ Why would this function be useful?
     If the parent also keeps a reference to the child, you now have a circular reference, and if the in-class references aren't cleared before the
     last out-of-class references are set to nothing, then you have created a memory leak.
     With this dll, you can store an address (LongPtr) to the parent within the child class and then use "vbaObjSetByAddress" to create a temporary reference to the parent as needed.
-2.  
+2.  If you use a custom UI & store an IRibbonUI object reference and VBA loses its state, if you store the address of the ribbon object somewhere (like a hidden worksheet or in the registry  
+    using VBA's SaveSetting function), you can use this function to get the object reference back, so you can continue to invalidate ribbon controls.
 
 Compile the code as a 64-bit dll (or 32-bit dll if you still want to use it with 32-bit Office).
 Once compiled, declare the function in VBA at the top of a module as shown below. 
