@@ -30,7 +30,7 @@ Example:
 
     Public Function ObjPtrToObject(ByVal address As LongPtr) As Object
           If address <> 0 Then                                  'Check to make sure address <> 0 (nullptr)
-	      Call ChDir("Add the path to the DLL here.")       'Need to change the current directory before calling the DLL function, or VBA might not find it.
+	          Call ChDir("Add the path to the DLL here.")       'Need to change the current directory before calling the DLL function, or VBA might not find it.
          
               'Ignore any thrown errors.
               On Error Resume Next                              'Or you can implement an error handling section in this function if desired.
